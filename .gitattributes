@@ -17,7 +17,3 @@
 *.psd binary
 *.ico binary
 *.zip binary
-
-# Asset bundles carry no extension at all (RimWorld will not load one that
-# does), so they have to be matched by where they live.
-AssetBundles/** binary
