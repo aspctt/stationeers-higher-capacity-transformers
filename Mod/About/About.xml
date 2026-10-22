@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetadata xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Higher Capacity Transformers</Name>
+  <ModID>aspctt.highercapacitytransformers</ModID>
+  <Author>aspctt</Author>
+  <Version>1.0.0</Version>
+  <Description>
+[h3] Higher Capacity Transformers [/h3]
+
+Increases transformers' capacities to match the cable maximums.
+Medium: 25000 --> 100000
+Large: 50000 --> 500000
+
+[b] Required Mods: [/b]
+[url=https://github.com/StationeersLaunchPad/StationeersLaunchPad] StationeersLaunchPad [/url]
+
+[url=https://buymeacoffee.com/aspctt][img]https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/donate/buymeacoffee-singular_vector.svg[/img][/url]
+
+	</Description>
+  <ChangeLog xsi:nil="true" />
+  <Tags />
+  <InGameDescription><![CDATA[<size="30"><color=#ffa500> Higher Capacity Transformers </color></size>
+Increase transformers' capacities to match the cable maximums.
+Medium: 25000 --> 100000
+Large: 50000 --> 500000
+
+Required Mods:
+StationeersLaunchPad
+]]></InGameDescription>
+</ModMetadata>
