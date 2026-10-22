@@ -1,7 +1,7 @@
 # <p align=center style="text-align: center;"> Higher Capacity Transformers </p>
 
 <p align="center" style="text-align: center;">
-	<img alt="Version" src="https://img.shields.io/badge/Version-1.0.0-orange">
+	<img alt="Version" src="https://img.shields.io/badge/Version-1.0.1-orange">
 	<img alt="Available for" src="https://img.shields.io/badge/Available_for-Power_Line_Update-blue">
 	<img alt="License" src="https://img.shields.io/badge/License-GPL--3.0--or--later-red">
 </p>

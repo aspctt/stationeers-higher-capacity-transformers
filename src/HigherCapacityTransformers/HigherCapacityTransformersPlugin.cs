@@ -28,7 +28,7 @@ public sealed class HigherCapacityTransformersPlugin : BaseUnityPlugin
 	// Shown in front of every line this plugin writes to the BepInEx log.
 	public const string PLUGIN_NAME = "Higher Capacity Transformers";
 
-	public const string PLUGIN_VERSION = "1.0.0";
+	public const string PLUGIN_VERSION = "1.0.1";
 
 	//// References and State
 

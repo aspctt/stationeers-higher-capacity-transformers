@@ -25,7 +25,7 @@
 		HigherCapacityTransformersPlugin.cs and Mod\About\About.xml change with it.
 	-->
 	<PropertyGroup>
-		<Version>1.0.0</Version>
+		<Version>1.0.1</Version>
 		<Product>Higher Capacity Transformers</Product>
 		<Authors>aspctt</Authors>
 		<Copyright>Copyright (C) 2026 aspctt</Copyright>
