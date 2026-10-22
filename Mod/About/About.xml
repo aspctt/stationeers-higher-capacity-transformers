@@ -5,14 +5,58 @@
 	<Author>aspctt</Author>
 	<Version>1.0.1</Version>
 	<Description>
-[h3] Higher Capacity Transformers [/h3]
+[img]https://i.ibb.co/jk30RgFP/Steam-Workshop-Description-Seperator.png[/img]
 
-Increases transformers' capacities to match the cable maximums.
-Medium: 25000 --> 100000, steps 500 / 50
-Large: 50000 --> 500000, steps 5000 / 500
+Higher Capacity Transformers raises the output limits of the Medium and Large Transformers to match the cables they feed. A Medium Transformer now goes up to 100 kW, the most heavy cable can carry, and a Large one up to the 500 kW of super-heavy cable. Their dials move in bigger steps to match, so turning one all the way up does not take all day.
 
-[b] Required Mods: [/b]
-[url=https://github.com/StationeersLaunchPad/StationeersLaunchPad] StationeersLaunchPad [/url]
+The Small Transformer stays as it is, since normal cable stops at its 5 kW anyway.
+
+
+[img]https://i.ibb.co/5g0kVxCq/Steam-Workshop-Contents-Seperator.png[/img]
+
+[b]Medium Transformer[/b], standard and reversed
+
+[list]
+	[*]Maximum output: 25,000 W → 100,000 W
+	[*]Steps: 100 W → 500 W
+	[*]Small steps: 10 W → 50 W
+[/list]
+
+[b]Large Transformer[/b]
+
+[list]
+	[*]Maximum output: 50,000 W → 500,000 W
+	[*]Steps: 1,000 W → 5,000 W
+	[*]Small steps: 100 W → 500 W
+[/list]
+
+
+[img]https://i.ibb.co/kgbKsVv6/Steam-Workshop-Compatibility-Seperator.png[/img]
+
+[b]Requires:[/b] [url=https://github.com/StationeersLaunchPad/StationeersLaunchPad]StationeersLaunchPad[/url]
+
+　✓ Existing saves, as transformers already built pick up the new limits when the save loads
+　✓ Removing it later, as transformers set above the game's limits drop back to them
+　✖ Other mods that change these transformers' limits, since only one of them can win
+
+
+[img]https://i.ibb.co/Qv3yXZFh/Steam-Workshop-Issues-Bugs-Seperator.png[/img]
+[list]
+	[*]See if the error persists if you just have this mod and its requirements active.
+	[*]If not, try adding your other mods until it happens again.
+	[*]Always post your logs: BepInEx/LogOutput.log in the game folder, and Player.log in %USERPROFILE%/AppData/LocalLow/Rocketwerkz/rocketstation.
+	[*]Do not report errors by making a discussion-thread, I get no notification of that.
+	[*]If you have the solution for a problem, please post it to the [url=https://github.com/aspctt/stationeers-higher-capacity-transformers]GitHub repository[/url].
+	[*]Thanks to [url=https://steamcommunity.com/id/Mlie]Mlie[/url] for this list
+[/list]
+
+
+[img]https://i.ibb.co/gLfKqstH/Steam-Workshop-Credits-Seperator.png[/img]
+[olist]
+	[*]StationeersLaunchPad, by its contributors
+	[*]BepInEx and HarmonyX, by the BepInEx team
+	[*]Harmony, by Andreas Pardeike
+[/olist]
 
 [url=https://buymeacoffee.com/aspctt][img]https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/donate/buymeacoffee-singular_vector.svg[/img][/url]
 
@@ -20,9 +64,10 @@ Large: 50000 --> 500000, steps 5000 / 500
 	<ChangeLog xsi:nil="true" />
 	<Tags />
 	<InGameDescription><![CDATA[<size="30"><color=#ffa500> Higher Capacity Transformers </color></size>
-Increase transformers' capacities to match the cable maximums.
-Medium: 25000 --> 100000, steps 500 / 50
-Large: 50000 --> 500000, steps 5000 / 500
+Raises the Medium and Large Transformers' output limits to match the cables they feed.
+
+Medium Transformer: up to 100,000 W, in steps of 500 W or 50 W
+Large Transformer: up to 500,000 W, in steps of 5,000 W or 500 W
 
 Required Mods:
 StationeersLaunchPad
