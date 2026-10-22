@@ -14,7 +14,7 @@ namespace HigherCapacityTransformers
     {
         public const string pluginGuid = "aspctt.highercapacitytransformers";
         public const string pluginName = "HigherCapacityTransformers";
-        public const string pluginVersion = "1.0";
+        public const string pluginVersion = "1.0.0";
         public static void Log(string line)
         {
             Debug.Log("[" + pluginName + "]: " + line);
