@@ -5,6 +5,17 @@ This program is licensed under the GNU General Public License v3.0
 or (at your option) any later version. See the LICENSE file for the
 full license text.
 
-This mod modifies decompiled/reverse-engineered game logic from
-Stationeers (Rocketwerkz Limited) via Harmony patching. It does not
-redistribute any original game assets or code.
+"Stationeers" is developed and published by RocketWerkz. This project is an
+independent, fan-made modification and is in no way associated with, endorsed
+by, or sponsored by RocketWerkz.
+
+Higher Capacity Transformers changes the game's values at runtime through
+Harmony patches. It does not include or redistribute any of the game's code or
+assets.
+
+Higher Capacity Transformers is loaded by StationeersLaunchPad and BepInEx and
+patches through HarmonyX (a fork of Harmony by Andreas Pardeike). Each is
+distributed under its own license and none is included in this project.
+
+Other trademarks and registered trademarks are the property of their respective
+holders.
