@@ -8,8 +8,8 @@
 [h3] Higher Capacity Transformers [/h3]
 
 Increases transformers' capacities to match the cable maximums.
-Medium: 25000 --> 100000
-Large: 50000 --> 500000
+Medium: 25000 --> 100000, steps 500 / 50
+Large: 50000 --> 500000, steps 5000 / 500
 
 [b] Required Mods: [/b]
 [url=https://github.com/StationeersLaunchPad/StationeersLaunchPad] StationeersLaunchPad [/url]
@@ -21,8 +21,8 @@ Large: 50000 --> 500000
 	<Tags />
 	<InGameDescription><![CDATA[<size="30"><color=#ffa500> Higher Capacity Transformers </color></size>
 Increase transformers' capacities to match the cable maximums.
-Medium: 25000 --> 100000
-Large: 50000 --> 500000
+Medium: 25000 --> 100000, steps 500 / 50
+Large: 50000 --> 500000, steps 5000 / 500
 
 Required Mods:
 StationeersLaunchPad
