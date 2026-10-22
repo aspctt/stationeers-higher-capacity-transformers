@@ -44,15 +44,17 @@ public static class Patch_Prefab_LoadCorePrefabs
 	// Each transformer's limit matches the cable it feeds: 100,000 W for heavy cable and
 	// 500,000 W for super-heavy cable, up from the game's 25,000 W and 50,000 W. The
 	// steps are what one click on the dial adds, and the small step is the same click
-	// with the small-increment key held.
+	// with the small-increment key held. The game's steps were sized for the old limits:
+	// the Medium's 100 W step took 1,000 clicks to reach 100,000 W, so it moves in 500 W
+	// now, which gets there in 200.
 	//
 	// The reversed Medium Transformer is a prefab of its own and needs its own entry.
 	// The game's text also lists a StructureTransformerMediumReversed, without the
 	// brackets, but the prefab itself goes by the bracketed name.
 	private static readonly TransformerLimits[] TRANSFORMER_LIMITS =
 	{
-		new TransformerLimits("StructureTransformerMedium", 100000f, 100f, 10f),
-		new TransformerLimits("StructureTransformerMedium(Reversed)", 100000f, 100f, 10f),
+		new TransformerLimits("StructureTransformerMedium", 100000f, 500f, 50f),
+		new TransformerLimits("StructureTransformerMedium(Reversed)", 100000f, 500f, 50f),
 		new TransformerLimits("StructureTransformer", 500000f, 5000f, 500f),
 	};
 

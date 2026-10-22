@@ -21,8 +21,10 @@ Higher Capacity Transformers raises the maximum output of the Medium and Large T
 
 ## What it changes
 
-* **Medium Transformer**: 25,000 W → 100,000 W, on both the standard and reversed variants.
-* **Large Transformer**: 50,000 W → 500,000 W. Its output setting now moves in steps of 5,000 W, or 500 W for small steps, so the wider range does not take all day to dial in.
+* **Medium Transformer**: 25,000 W → 100,000 W, on both the standard and reversed variants. Its output setting moves in steps of 500 W, or 50 W for small steps.
+* **Large Transformer**: 50,000 W → 500,000 W. Its output setting moves in steps of 5,000 W, or 500 W for small steps.
+
+The steps are scaled up with the limits, so the wider range does not take all day to dial in.
 
 ## Installation
 
