@@ -62,6 +62,7 @@ The Small Transformer stays as it is, since normal cable stops at its 5 kW anywa
 
 	</Description>
 	<ChangeLog xsi:nil="true" />
+	<WorkshopHandle>3763993963</WorkshopHandle>
 	<Tags />
 	<InGameDescription><![CDATA[<size="30"><color=#ffa500> Higher Capacity Transformers </color></size>
 Raises the Medium and Large Transformers' output limits to match the cables they feed.
