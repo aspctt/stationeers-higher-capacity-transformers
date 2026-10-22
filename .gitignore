@@ -19,10 +19,10 @@ build/
 msbuild*.log
 
 # The compiled mod assembly lives in Mod/ and ships with the mod, so it is
-# intentionally TRACKED. The .csproj still builds to bin/, so the fresh DLL has
-# to be copied into Mod/ after a build.
+# intentionally TRACKED (the .csproj OutputPath points there). Reference DLLs
+# are not copied in (Private=false), so nothing else lands there.
 
-## Debug symbols (the Debug build writes a .pdb next to the DLL in bin/)
+## Debug symbols (DebugType=none by default, so normally none are produced)
 *.pdb
 *.mdb
 
