@@ -16,5 +16,5 @@ First release.
 - Medium Transformer output raised from 25,000 W to 100,000 W, on both the standard and reversed variants
 - Large Transformer output raised from 50,000 W to 500,000 W, with its setting steps scaled up to match
 
-[Unreleased]: https://github.com/aspctt/stationeers-higher-capacity-transformers/compare/1.0...HEAD
-[1.0.0]: https://github.com/aspctt/stationeers-higher-capacity-transformers/releases/tag/1.0
+[Unreleased]: https://github.com/aspctt/stationeers-higher-capacity-transformers/compare/1.0.0...HEAD
+[1.0.0]: https://github.com/aspctt/stationeers-higher-capacity-transformers/releases/tag/1.0.0
